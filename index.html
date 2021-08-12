@@ -1,0 +1,131 @@
+<html lang="en">
+
+<head>
+    <title>Bootstrap Project 62</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <ul class="menu">
+                <li class="links"><a href="#home">HOME</a></li>
+                <li class="links"><a href="#grid">GRID VIEW</a></li>
+                <li class="links"><a href="#slide">SLIDE VIEW</a></li>
+            </ul>
+        </div>
+    </center>
+    <section id="home">
+        <h1>Welcome Home</h1>
+        <p>Welcome to my photo gallery. In this website I have added a number of photos which you can see in 2 ways. Either see the grid view or just see the slide</p>
+    </section>
+    <section id="grid">
+        <h1>Grid Photo Gallery</h1>
+        <br>
+        <div class="row">
+            <img class="img2" src="blue.jpg">
+            <img class="img2" src="Orange.png">
+            <img class="img2" src="Pink%20tulip.jpg">
+            <img class="img2" src="purple.jpg">
+            <img class="img2" src="Red%20rose.jpg">
+            <img class="img2" src="violet.jpg">
+            <img class="img2" src="White.jpg">
+            <img class="img2" src="yellow.jpg">
+
+        </div>
+    </section>
+    <section id="slide">
+        <h1>Slide Photo Gallery</h1>
+        <br>
+        <div id="myCarousel" class="carousel slide">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <!>
+                    <div class="item active">
+                        <!which item will be active when loaded>
+                            <center>
+                                <img src="blue.jpg" class="img-responsive">
+                                <div class="carousel-content">
+                                    <p>Blue Hydrangea</p>
+                                </div>
+                            </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="Orange.png" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Orange Tulip</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="Pink%20tulip.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Pink Tulip</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="purple.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Purple Lily</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="Red%20rose.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Red Rose</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="violet.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Violet Flower</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="White.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>White Flower</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="yellow.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Sunflower</p>
+                            </div>
+                        </center>
+                    </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
